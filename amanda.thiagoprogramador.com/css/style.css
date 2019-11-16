@@ -1,0 +1,16 @@
+span.verde {
+    color: green;
+}
+.navbar-inverse{
+    border-radius:0px;
+}
+.nav-stacked li a{
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+}
+.like{
+
+}
+.dislike{
+
+}
