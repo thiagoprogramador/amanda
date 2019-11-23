@@ -1,7 +1,7 @@
  <div id="mainMenu" class="tab-pane active">
           <ul class="nav am-sideleft-menu">
             <li class="nav-item">
-              <a href="index.html" class="nav-link active">
+              <a href="home.php" class="nav-link active">
                 <i class="icon ion-ios-home-outline"></i>
                 <span>Principal</span>
               </a>
