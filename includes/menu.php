@@ -82,11 +82,33 @@
             </li><!-- nav-item -->
             <li class="nav-item">
               <a href="" class="nav-link with-sub">
-                <i class="icon ion-ios-analytics-outline"></i>
-                <span>Charts</span>
+                
+                  
+                    <div id="changeText"><i class="icon ion-ios-heart-outline"></i></div>
+                    <script>
+                    var text = ['<i class="icon ion-ios-heart"></i>', '<i class="icon ion-ios-heart-outline"></i>'];
+                    var counter = 0;
+                    var elem = document.getElementById("changeText");
+                    var inst = setInterval(change, 1000);
+
+                    function change() {
+                      elem.innerHTML = text[counter];
+                      counter++;
+                      if (counter >= text.length) {
+                        counter = 0;
+                        // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+                      }
+                    }
+                      
+                  </script>
+                  
+                  
+                
+                
+                <span>OBJETIVOS</span>
               </a>
               <ul class="nav-sub">
-                <li class="nav-item"><a href="chart-morris.html" class="nav-link">Morris Charts</a></li>
+                <li class="nav-item"><a href="recompensas.php" class="nav-link">Recompensas</a></li>
                 <li class="nav-item"><a href="chart-flot.html" class="nav-link">Flot Charts</a></li>
                 <li class="nav-item"><a href="chart-chartjs.html" class="nav-link">Chart JS</a></li>
                 <li class="nav-item"><a href="chart-rickshaw.html" class="nav-link">Rickshaw</a></li>

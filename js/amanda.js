@@ -85,5 +85,20 @@ $(document).ready(function(){
   $('pre code').each(function(i, block) {
     hljs.highlightBlock(block);
   });
+  
+  $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
 
 });
+
+
+

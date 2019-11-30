@@ -1,7 +1,5 @@
 <?php
-
 include 'includes/header.php';
-
 ?>
 
     <div class="am-sideleft">
@@ -251,162 +249,551 @@ include 'includes/header.php';
         </div><!-- row -->
 
         <div class="row row-sm mg-t-15 mg-sm-t-20">
-          <div class="col-md-6">
-            <div class="card pd-20 pd-sm-40">
-              <h6 class="card-body-title">Despesas</h6>
-              <p class="mg-b-20 mg-sm-b-30">A bar chart or bar graph is a chart with rectangular bars with lengths proportional to the values that they represent.</p>
-              <div id="f2" class="ht-200 ht-sm-300"></div>
-            </div><!-- card -->
-          </div><!-- col-6 -->
-          <div class="col-md-6 mg-t-15 mg-sm-t-20 mg-md-t-0">
-            <div class="card pd-20 pd-sm-40">
-              <h6 class="card-body-title">Receitas</h6>
-              <p class="mg-b-20 mg-sm-b-30">The stacked charts are used when data sets have to be broken down into their constituents.</p>
-              <div id="f1" class="ht-200 ht-sm-300"></div>
-            </div><!-- card -->
-          </div><!-- col-6 -->
+        <div class="am-pagebody">
+
+<div class="card pd-20 pd-sm-40">
+  <h6 class="card-body-title">Basic Table</h6>
+  <p class="mg-b-20 mg-sm-b-30">Using the most basic table markup.</p>
+
+  <div class="table-responsive">
+    <table class="table mg-b-0">
+      <thead>
+        <tr>
+          <th>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>$170,750</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Ashton Cox</td>
+          <td>Junior Technical Author</td>
+          <td>$86,000</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Cedric Kelly</td>
+          <td>Senior Javascript Developer</td>
+          <td>$433,060</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Airi Satou</td>
+          <td>Accountant</td>
+          <td>$162,700</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div><!-- card -->
+
+<p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+<pre><code class="html pd-20 hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>..<span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+
+<div class="card pd-20 pd-sm-40 mg-t-50">
+  <h6 class="card-body-title">Striped Rows</h6>
+  <p class="mg-b-20 mg-sm-b-30">Add zebra-striping to any table row.</p>
+
+  <div class="table-responsive">
+    <table class="table table-striped mg-b-0">
+      <thead>
+        <tr>
+          <th>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>$170,750</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Ashton Cox</td>
+          <td>Junior Technical Author</td>
+          <td>$86,000</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Cedric Kelly</td>
+          <td>Senior Javascript Developer</td>
+          <td>$433,060</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Airi Satou</td>
+          <td>Accountant</td>
+          <td>$162,700</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- table-responsive -->
+</div><!-- card -->
+
+<p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+<pre><code class="html pd-20 hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table table-striped"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>..<span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+
+<div class="card pd-20 pd-sm-40 mg-t-50">
+  <h6 class="card-body-title">Bordered Table</h6>
+  <p class="mg-b-20 mg-sm-b-30">Add borders on all sides of the table and cells.</p>
+
+  <div class="table-responsive">
+    <table class="table table-bordered mg-b-0">
+      <thead>
+        <tr>
+          <th>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>$170,750</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Ashton Cox</td>
+          <td>Junior Technical Author</td>
+          <td>$86,000</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Cedric Kelly</td>
+          <td>Senior Javascript Developer</td>
+          <td>$433,060</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Airi Satou</td>
+          <td>Accountant</td>
+          <td>$162,700</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- table-responsive -->
+</div><!-- card -->
+
+<p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+<pre><code class="html pd-20 hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table table-bordered"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>..<span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+
+<div class="card pd-20 pd-sm-40 mg-t-50">
+  <h6 class="card-body-title">Hoverable Rows</h6>
+  <p class="mg-b-20 mg-sm-b-30">To enable a hover state on table rows.</p>
+
+  <div class="table-responsive">
+    <table class="table table-hover mg-b-0">
+      <thead>
+        <tr>
+          <th>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>$170,750</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Ashton Cox</td>
+          <td>Junior Technical Author</td>
+          <td>$86,000</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Cedric Kelly</td>
+          <td>Senior Javascript Developer</td>
+          <td>$433,060</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Airi Satou</td>
+          <td>Accountant</td>
+          <td>$162,700</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- table-responsive -->
+</div><!-- card -->
+
+<p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+<pre><code class="html pd-20 hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table table-hover"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>..<span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+
+<div class="card pd-20 pd-sm-40 mg-t-50">
+  <h6 class="card-body-title">Color Variations for Table Header</h6>
+  <p class="mg-b-20 mg-sm-b-30">A custom color for the head of the tables.</p>
+
+  <div class="table-responsive">
+    <table class="table table-hover table-bordered mg-b-0">
+      <thead class="bg-info">
+        <tr>
+          <th>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>$170,750</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Ashton Cox</td>
+          <td>Junior Technical Author</td>
+          <td>$86,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- table-responsive -->
+
+  <div class="table-responsive mg-t-25">
+    <table class="table table-hover table-bordered mg-b-0">
+      <thead class="bg-danger">
+        <tr>
+          <th>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>$170,750</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Ashton Cox</td>
+          <td>Junior Technical Author</td>
+          <td>$86,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- table-responsive -->
+</div><!-- card -->
+
+<p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+<pre><code class="html pd-20 hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table table-bordered"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">thead</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bg-info"</span>&gt;</span>..<span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+
+<div class="card pd-20 pd-sm-40 mg-t-50">
+  <h6 class="card-body-title">Full Color Variations for Table</h6>
+  <p class="mg-b-20 mg-sm-b-30">A custom color for the head of the tables.</p>
+
+  <div class="table-responsive">
+    <table class="table table-hover table-bordered table-primary mg-b-0">
+      <thead>
+        <tr>
+          <th>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>$170,750</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Ashton Cox</td>
+          <td>Junior Technical Author</td>
+          <td>$86,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- table-responsive -->
+
+  <div class="table-responsive mg-t-25">
+    <table class="table table-hover table-bordered table-purple mg-b-0">
+      <thead>
+        <tr>
+          <th>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Tiger Nixon</td>
+          <td>System Architect</td>
+          <td>$320,800</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Garrett Winters</td>
+          <td>Accountant</td>
+          <td>$170,750</td>
+        </tr>
+        <tr>
+          <td>
+            <label class="ckbox mg-b-0">
+              <input type="checkbox"><span></span>
+            </label>
+          </td>
+          <td>Ashton Cox</td>
+          <td>Junior Technical Author</td>
+          <td>$86,000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div><!-- table-responsive -->
+</div><!-- card -->
+
+<p class="tx-11 tx-uppercase tx-spacing-2 mg-t-40 mg-b-10 tx-gray-600">Source Code</p>
+<pre class="mg-b-0"><code class="html pd-20 hljs xml"><span class="hljs-comment">&lt;!-- available in 10 color variations --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">table</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"table table-bordered table-primary"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">thead</span>&gt;</span>..<span class="hljs-tag">&lt;/<span class="hljs-name">thead</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">tbody</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">tbody</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span></code></pre>
+
+</div>
+          
         </div><!-- row -->
 
-        <div class="row row-sm mg-t-15 mg-sm-t-20">
-          <div class="col-lg-8">
-            <div class="card">
-              <div class="card-header bg-transparent pd-20">
-                <h6 class="card-title tx-uppercase tx-12 mg-b-0">
-
-                  Transações
-
-                </h6>
-              </div><!-- card-header -->
-              <div class="table-responsive">
-                <table class="table table-white mg-b-0 tx-12">
-                  <tbody>
-                    <tr>
-                      <td class="pd-l-20 tx-center">
-                        <img src="img/img1.jpg" class="wd-36 rounded-circle" alt="Image">
-                      </td>
-                      <td>
-                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Mark K. Peters</a>
-                        <span class="tx-11 d-block">TRANSID: 1234567890</span>
-                      </td>
-                      <td class="tx-12">
-                        <span class="square-8 bg-success mg-r-5 rounded-circle"></span> Email verified
-                      </td>
-                      <td>Just Now</td>
-                    </tr>
-                    <tr>
-                      <td class="pd-l-20 tx-center">
-                        <img src="img/img2.jpg" class="wd-36 rounded-circle" alt="Image">
-                      </td>
-                      <td>
-                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Karmen F. Brown</a>
-                        <span class="tx-11 d-block">TRANSID: 1234567890</span>
-                      </td>
-                      <td class="tx-12">
-                        <span class="square-8 bg-warning mg-r-5 rounded-circle"></span> Pending verification
-                      </td>
-                      <td>Apr 21, 2017 8:34am</td>
-                    </tr>
-                    <tr>
-                      <td class="pd-l-20 tx-center">
-                        <img src="img/img3.jpg" class="wd-36 rounded-circle" alt="Image">
-                      </td>
-                      <td>
-                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Gorgonio Magalpok</a>
-                        <span class="tx-11 d-block">TRANSID: 1234567890</span>
-                      </td>
-                      <td class="tx-12">
-                        <span class="square-8 bg-success mg-r-5 rounded-circle"></span> Purchased success
-                      </td>
-                      <td>Apr 10, 2017 4:40pm</td>
-                    </tr>
-                    <tr>
-                      <td class="pd-l-20 tx-center">
-                        <img src="img/img5.jpg" class="wd-36 rounded-circle" alt="Image">
-                      </td>
-                      <td>
-                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Ariel T. Hall</a>
-                        <span class="tx-11 d-block">TRANSID: 1234567890</span>
-                      </td>
-                      <td class="tx-12">
-                        <span class="square-8 bg-warning mg-r-5 rounded-circle"></span> Payment on hold
-                      </td>
-                      <td>Apr 02, 2017 6:45pm</td>
-                    </tr>
-                    <tr>
-                      <td class="pd-l-20 tx-center">
-                        <img src="img/img4.jpg" class="wd-36 rounded-circle" alt="Image">
-                      </td>
-                      <td>
-                        <a href="" class="tx-inverse tx-14 tx-medium d-block">John L. Goulette</a>
-                        <span class="tx-11 d-block">TRANSID: 1234567890</span>
-                      </td>
-                      <td class="tx-12">
-                        <span class="square-8 bg-pink mg-r-5 rounded-circle"></span> Account deactivated
-                      </td>
-                      <td>Mar 30, 2017 10:30am</td>
-                    </tr>
-                    <tr>
-                      <td class="pd-l-20 tx-center">
-                        <img src="img/img5.jpg" class="wd-36 rounded-circle" alt="Image">
-                      </td>
-                      <td>
-                        <a href="" class="tx-inverse tx-14 tx-medium d-block">John L. Goulette</a>
-                        <span class="tx-11 d-block">TRANSID: 1234567890</span>
-                      </td>
-                      <td class="tx-12">
-                        <span class="square-8 bg-pink mg-r-5 rounded-circle"></span> Account deactivated
-                      </td>
-                      <td>Mar 30, 2017 10:30am</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div><!-- table-responsive -->
-              <div class="card-footer tx-12 pd-y-15 bg-transparent bd-t bd-gray-200">
-                <a href=""><i class="fa fa-angle-down mg-r-5"></i>Ver todas as transações</a>
-              </div><!-- card-footer -->
-            </div><!-- card -->
-          </div><!-- col-8 -->
-          <div class="col-lg-4 mg-t-15 mg-sm-t-20 mg-lg-t-0">
-            <div class="card pd-20">
-              <h6 class="tx-12 tx-uppercase tx-inverse tx-bold mg-b-15">
-                
-                Vendas
-
-              </h6>
-              <div class="d-flex mg-b-10">
-                <div class="bd-r pd-r-10">
-                  <label class="tx-12">Hoje</label>
-                  <p class="tx-lato tx-inverse tx-bold">1,898</p>
-                </div>
-                <div class="bd-r pd-x-10">
-                  <label class="tx-12">Esta semana</label>
-                  <p class="tx-lato tx-inverse tx-bold">32,112</p>
-                </div>
-                <div class="pd-l-10">
-                  <label class="tx-12">Esta semana</label>
-                  <p class="tx-lato tx-inverse tx-bold">72,067</p>
-                </div>
-              </div><!-- d-flex -->
-              <div class="progress mg-b-10">
-                <div class="progress-bar wd-50p" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-              </div>
-            </div><!-- card -->
-
-            <ul class="list-group widget-list-group bg-info mg-t-20">
-              
-            <?php 
-              $x =0; 
-
-                while($x < 6){ 
-                  $x++;
-            ?>
-              <li class="list-group-item rounded-top-0">
-                <p class="mg-b-0"><i class="fa fa-cube tx-white-7 mg-r-8"></i><strong class="tx-medium">Nome do projeto <?=$x;?></strong></p>
-              </li>
-            <?php } ?>
-             
-            </ul>
-          </div><!-- col-4 -->
-        </div><!-- row -->
+        
 
 <?php include 'includes/rodape.php'; ?>

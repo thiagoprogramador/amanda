@@ -1,4 +1,9 @@
 <?php
+$mysqli = new mysqli("localhost", "root", "", "amanda");
+if ($mysqli->connect_errno) {
+    printf("Erro de conexão: %s\n", $mysqli->connect_error);
+    exit();
+}
 //mostar data em portugues
 //git
 
