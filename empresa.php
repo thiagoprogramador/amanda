@@ -237,28 +237,13 @@ include 'includes/header.php';
           </div><!-- col-4 -->
         </div><!-- row -->
 
-        <div class="row row-sm mg-t-15 mg-sm-t-20">
-          <div class="col-md-6">
-            <div class="card pd-20 pd-sm-40">
-              <h6 class="card-body-title">Bar Chart</h6>
-              <p class="mg-b-20 mg-sm-b-30">A bar chart or bar graph is a chart with rectangular bars with lengths proportional to the values that they represent.</p>
-              <div id="f2" class="ht-200 ht-sm-300"></div>
-            </div><!-- card -->
-          </div><!-- col-6 -->
-          <div class="col-md-6 mg-t-15 mg-sm-t-20 mg-md-t-0">
-            <div class="card pd-20 pd-sm-40">
-              <h6 class="card-body-title">Line Chart</h6>
-              <p class="mg-b-20 mg-sm-b-30">The stacked charts are used when data sets have to be broken down into their constituents.</p>
-              <div id="f1" class="ht-200 ht-sm-300"></div>
-            </div><!-- card -->
-          </div><!-- col-6 -->
-        </div><!-- row -->
+    
 
         <div class="row row-sm mg-t-15 mg-sm-t-20">
-          <div class="col-lg-8">
+          <div class="col-lg-12">
             <div class="card">
               <div class="card-header bg-transparent pd-20">
-                <h6 class="card-title tx-uppercase tx-12 mg-b-0">User Transaction History</h6>
+                <h6 class="card-title tx-uppercase tx-12 mg-b-0">Projetos</h6>
               </div><!-- card-header -->
               <div class="table-responsive">
                 <table class="table table-white mg-b-0 tx-12">
@@ -268,11 +253,11 @@ include 'includes/header.php';
                         <img src="img/img1.jpg" class="wd-36 rounded-circle" alt="Image">
                       </td>
                       <td>
-                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Mark K. Peters</a>
-                        <span class="tx-11 d-block">TRANSID: 1234567890</span>
+                        <a href="" class="tx-inverse tx-14 tx-medium d-block">Nome da empresa</a>
+                        <span class="tx-11 d-block">IDEMPRESA: 1234567890</span>
                       </td>
                       <td class="tx-12">
-                        <span class="square-8 bg-success mg-r-5 rounded-circle"></span> Email verified
+                        <span class="square-8 bg-success mg-r-5 rounded-circle"></span> Status do projeto
                       </td>
                       <td>Just Now</td>
                     </tr>
@@ -349,47 +334,7 @@ include 'includes/header.php';
               </div><!-- card-footer -->
             </div><!-- card -->
           </div><!-- col-8 -->
-          <div class="col-lg-4 mg-t-15 mg-sm-t-20 mg-lg-t-0">
-            <div class="card pd-20">
-              <h6 class="tx-12 tx-uppercase tx-inverse tx-bold mg-b-15">Sales Report</h6>
-              <div class="d-flex mg-b-10">
-                <div class="bd-r pd-r-10">
-                  <label class="tx-12">Today</label>
-                  <p class="tx-lato tx-inverse tx-bold">1,898</p>
-                </div>
-                <div class="bd-r pd-x-10">
-                  <label class="tx-12">This Week</label>
-                  <p class="tx-lato tx-inverse tx-bold">32,112</p>
-                </div>
-                <div class="pd-l-10">
-                  <label class="tx-12">This Month</label>
-                  <p class="tx-lato tx-inverse tx-bold">72,067</p>
-                </div>
-              </div><!-- d-flex -->
-              <div class="progress mg-b-10">
-                <div class="progress-bar wd-50p" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-              </div>
-              <p class="tx-12 mg-b-0">Maecenas tempus, tellus eget condimentum rhoncus</p>
-            </div><!-- card -->
-
-            <ul class="list-group widget-list-group bg-info mg-t-20">
-              <li class="list-group-item rounded-top-0">
-                <p class="mg-b-0"><i class="fa fa-cube tx-white-7 mg-r-8"></i><strong class="tx-medium">Retina: 13.3-inch</strong> <span class="text-muted">Display</span></p>
-              </li>
-              <li class="list-group-item">
-                <p class="mg-b-0"><i class="fa fa-cube tx-white-7 mg-r-8"></i><strong class="tx-medium">Intel Iris Graphics 6100</strong> <span class="text-muted">Graphics</span></p>
-              </li>
-              <li class="list-group-item">
-                <p class="mg-b-0"><i class="fa fa-cube tx-white-7 mg-r-8"></i><strong class="tx-medium">500 GB</strong> <span class="text-muted">Flash Storage</span></p>
-              </li>
-              <li class="list-group-item">
-                <p class="mg-b-0"><i class="fa fa-cube tx-white-7 mg-r-8"></i><strong class="tx-medium">3.1 GHz Intel Core i7</strong> <span class="text-muted">Processor</span></p>
-              </li>
-              <li class="list-group-item rounded-bottom-0">
-                <p class="mg-b-0"><i class="fa fa-cube tx-white-7 mg-r-8"></i><strong class="tx-tx-medium">16 GB 1867 MHz DDR3</strong> <span class="text-muted">Memory</span></p>
-              </li>
-            </ul>
-          </div><!-- col-4 -->
+        
         </div><!-- row -->
 
 <?php include 'includes/rodape.php'; ?>

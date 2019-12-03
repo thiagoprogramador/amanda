@@ -46,6 +46,22 @@
             <li class="nav-item">
               <a href="" class="nav-link with-sub">
                 <i class="icon ion-ios-gear-outline"></i>
+                <span>Empresa</span>
+              </a>
+              <ul class="nav-sub">
+                <li class="nav-item"><a href="empresa.php" class="nav-link">Empresa</a></li>
+                <li class="nav-item"><a href="form-elements.html" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="form-layouts.html" class="nav-link">Clientes</a></li>
+                <li class="nav-item"><a href="form-validation.html" class="nav-link">Financeiro</a></li>
+              </ul>
+            </li><!-- nav-item -->
+            <!-- menu exemplo -->
+            
+            
+            <!-- menu exemplo --> 
+            <li class="nav-item">
+              <a href="" class="nav-link with-sub">
+                <i class="icon ion-ios-gear-outline"></i>
                 <span>Forms</span>
               </a>
               <ul class="nav-sub">
