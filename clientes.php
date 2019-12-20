@@ -97,6 +97,9 @@ if ($_POST['enviar']) {
                 <div class="table-responsive">
                     <table class="table table-white mg-b-0 tx-12">
                         <tbody>
+                           
+                            
+                            
                             <tr>
                                 <td class="pd-l-20 tx-center">
                                     <img src="img/img1.jpg" class="wd-36 rounded-circle" alt="Image">
@@ -110,6 +113,8 @@ if ($_POST['enviar']) {
                                 </td>
                                 <td>Just Now</td>
                             </tr>
+                          
+                            
                             <tr>
                                 <td class="pd-l-20 tx-center">
                                     <img src="img/img2.jpg" class="wd-36 rounded-circle" alt="Image">
